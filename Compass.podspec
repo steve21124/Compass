@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.ios.source_files = 'Sources/{iOS,Shared}/**/*'
   s.osx.source_files = 'Sources/{Mac,Shared}/**/*'
-  s.dependency = 'Sugar',:podspec=> 'https://raw.githubusercontent.com/hyperoslo/Sugar/master/Sugar.podspec'
+  
 end

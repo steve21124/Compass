@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/hyperoslo/Compass"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
-  s.source           = { :git => "https://github.com/hyperoslo/Compass.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/hyperoslo/Compass.git" }
   s.social_media_url = 'https://twitter.com/hyperoslo'
 
   s.ios.deployment_target = '8.0'
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.ios.source_files = 'Sources/{iOS,Shared}/**/*'
   s.osx.source_files = 'Sources/{Mac,Shared}/**/*'
-  
+  s.dependency 'Sugar', :git => 'https://github.com/hyperoslo/Sugar.git'
 end

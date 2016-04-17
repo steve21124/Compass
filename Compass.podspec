@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/hyperoslo/Compass"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
-  s.source           = { :git => "https://github.com/steve21124ad/Compass.git" }
+  s.source           = { :git => "https://github.com/steve21124/Compass.git" }
   s.social_media_url = 'https://twitter.com/hyperoslo'
 
   s.ios.deployment_target = '8.0'
